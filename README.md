@@ -12,16 +12,7 @@ TrashDeal is an interactive educational web application developed to promote awa
 
 The project was developed primarily to explore modern React development practices, with a strong emphasis on component based architecture, state management, event handling, conditional rendering, and interactive user experiences. Rather than focusing on complex backend systems, the project demonstrates how React can be used to build engaging, responsive, and data driven applications.
 
----
-# TrashDeal
 
-## Overview
-
-TrashDeal is an interactive educational web application developed to promote awareness of proper waste segregation through gamified learning. The application challenges users to correctly sort waste items into appropriate bins while tracking scores through a persistent leaderboard.
-
-The project was developed primarily to explore modern React development practices, with a strong emphasis on component-based architecture, state management, event handling, conditional rendering, and interactive user experiences. Rather than focusing on complex backend systems, the project demonstrates how React can be used to build engaging, responsive, and data-driven applications.
-
----
 
 
 ---
