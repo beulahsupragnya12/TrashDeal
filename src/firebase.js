@@ -8,13 +8,13 @@ import { getFirestore } from "firebase/firestore";
 // These values identify and connect the app to the correct Firebase project
 // This configuration is safe to expose in frontend applications
 const firebaseConfig = {
-  apiKey: "AIzaSyDFDPcTF5UuH70B1fmKABHQdI2SIDuOwn4", // API key for Firebase project
-  authDomain: "trashdeal.firebaseapp.com", // Authentication domain
-  projectId: "trashdeal", // Firebase project ID
-  storageBucket: "trashdeal.firebasestorage.app", // Storage bucket
-  messagingSenderId: "370843701400", // Sender ID
-  appId: "1:370843701400:web:79ced8c80d3742ce8780ed", // App ID
-  measurementId: "G-V2T7J7EHE2", // Analytics ID (not used directly)
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_FIREBASE_APP_ID,
+  measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID,
 };
 
 // Initialize the Firebase application using the configuration above
