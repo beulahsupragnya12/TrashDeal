@@ -1,0 +1,111 @@
+.home-container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/tdhome.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/* Clickable board areas */
+.board {
+  position: absolute;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* Adjust these visually */
+.board-left {
+  top: 55%;
+  left: 8%;
+  width: 25%;
+  height: 15%;
+}
+
+.board-center {
+  top: 55%;
+  left: 37%;
+  width: 26%;
+  height: 15%;
+}
+
+.board-right {
+  top: 55%;
+  left: 67%;
+  width: 25%;
+  height: 15%;
+}
+/* Dialog overlay (reuse style) */
+.dialog-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+}
+
+/* Dialog box */
+.dialog {
+  background: white;
+  padding: 25px;
+  border-radius: 20px;
+  max-width: 700px;
+  width: 90%;
+  text-align: center;
+}
+
+/* Bin guide specific */
+.bin-guide-dialog {
+  background: linear-gradient(#8fe3cf 60%, #b7e4c7 60%);
+  border-radius: 30px;
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+.bin-guide-list {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bin-card {
+  width: 200px;
+  padding: 15px;
+  border-radius: 16px;
+  color: rgb(95, 234, 204);
+  font-weight: bold;
+}
+
+.bin-card h3 {
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.bin-card p {
+  font-weight: normal;
+  line-height: 1.4;
+}
+
+.examples {
+  margin-top: 8px;
+  font-size: 1.4rem;
+}
+
+.bin-guide-decor {
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+  font-size: 1.5rem;
+}
+
+.bin-guide-decor.right {
+  left: auto;
+  right: 20px;
+}

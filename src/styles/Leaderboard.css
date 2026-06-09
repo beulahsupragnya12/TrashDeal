@@ -1,0 +1,132 @@
+/* Page background */
+.leaderboard-page {
+  min-height: 100vh;
+  background: linear-gradient(#8fe3cf 60%, #b7e4c7 60%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+  font-family: "Comic Sans MS", cursive;
+  position: relative;
+  overflow: hidden;
+}
+/* Ropes */
+.rope {
+  position: absolute;
+  top: 0;
+  width: 6px;
+  height: 120px;
+  background: repeating-linear-gradient(
+    45deg,
+    #c49a6c,
+    #c49a6c 4px,
+    #a67c52 4px,
+    #a67c52 8px
+  );
+}
+
+.left-rope {
+  left: 35%;
+}
+
+.right-rope {
+  right: 35%;
+}
+
+/* Wooden board */
+.wood-board {
+  width: 80%;
+  max-width: 800px;
+  background: linear-gradient(135deg, #c89b6d, #b07a4f);
+  border-radius: 25px;
+  padding: 30px 25px;
+  box-shadow: inset 0 0 0 6px #8d5a2b, 0 12px 20px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+/* Board title */
+.board-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #4e2e0e;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px #e7c7a2;
+}
+
+/* Content */
+.board-content {
+  max-height: 320px;
+  overflow-y: auto;
+  padding-right: 5px;
+}
+
+/* Rows */
+.board-row {
+  display: grid;
+  grid-template-columns: 50px 1fr 90px 120px;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.85);
+  margin-bottom: 10px;
+  padding: 10px 12px;
+  border-radius: 14px;
+  font-weight: bold;
+}
+
+/* Rank */
+.rank {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+/* Name */
+.name {
+  padding-left: 10px;
+}
+
+/* Score */
+.score {
+  text-align: center;
+}
+
+/* Mode tags */
+.mode {
+  text-align: center;
+  padding: 4px 10px;
+  border-radius: 12px;
+  color: white;
+  text-transform: capitalize;
+  font-size: 0.9rem;
+}
+
+.mode.easy {
+  background: #66bb6a;
+}
+
+.mode.medium {
+  background: #ffee58;
+  color: #333;
+}
+
+.mode.hard {
+  background: #ef5350;
+}
+
+/* Empty state */
+.empty {
+  text-align: center;
+  color: #4e2e0e;
+  font-size: 1.1rem;
+}
+
+/* Home button */
+.home-btn {
+  margin-top: 25px;
+  padding: 10px 26px;
+  border-radius: 25px;
+  border: none;
+  background: #4caf50;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}

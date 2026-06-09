@@ -1,0 +1,21 @@
+[
+  {
+    "id": "plastic_bag",
+    "type": "landfill",
+    "emoji": "🛍️",
+    "color": "#212121"
+  },
+  { "id": "wrapper", "type": "landfill", "emoji": "🍬", "color": "#212121" },
+  { "id": "mask", "type": "landfill", "emoji": "😷", "color": "#212121" },
+  { "id": "tissue", "type": "landfill", "emoji": "🧻", "color": "#212121" },
+
+  { "id": "bottle", "type": "recycle", "emoji": "🧴", "color": "#2E7D32" },
+  { "id": "can", "type": "recycle", "emoji": "🥫", "color": "#2E7D32" },
+  { "id": "cardboard", "type": "recycle", "emoji": "📦", "color": "#2E7D32" },
+  { "id": "paper", "type": "recycle", "emoji": "📄", "color": "#2E7D32" },
+
+  { "id": "banana", "type": "organic", "emoji": "🍌", "color": "#8D6E63" },
+  { "id": "apple", "type": "organic", "emoji": "🍎", "color": "#8D6E63" },
+  { "id": "eggshell", "type": "organic", "emoji": "🥚", "color": "#8D6E63" },
+  { "id": "bone", "type": "organic", "emoji": "🍗", "color": "#8D6E63" }
+]

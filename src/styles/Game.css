@@ -1,0 +1,84 @@
+.game-page {
+  min-height: 100vh;
+  background: linear-gradient(#8fe3cf, #d0f5e8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Comic Sans MS", cursive;
+}
+
+.hud {
+  display: flex;
+  gap: 20px;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.game-board {
+  position: relative;
+  width: 400px;
+  height: 600px;
+  background: #e9fdf6;
+  border-radius: 20px;
+  border: 4px dashed #6fcf97;
+  overflow: hidden;
+}
+
+/* Trash items */
+.trash-item {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  cursor: grab;
+  user-select: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Bins */
+.bin {
+  position: absolute;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 8px;
+}
+
+/* Dialog / Modal */
+.dialog-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 20;
+}
+
+.dialog {
+  background: white;
+  padding: 25px;
+  border-radius: 20px;
+  text-align: center;
+  min-width: 240px;
+}
+
+.dialog h2 {
+  margin-bottom: 15px;
+}
+
+.dialog button {
+  width: 100%;
+  margin-top: 8px;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
