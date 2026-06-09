@@ -220,7 +220,7 @@ Through this project, key skills were developed in:
 ## Author
 
 Name: Pamula Beulah Supragnya
-Student ID: 25255440
+Maynooth University Ireland 
 Module: CS385
 Project: Final Project
 
