@@ -116,6 +116,50 @@ Trash items are randomly selected and spawned during gameplay. Using JSON allows
 This satisfies the rubric requirement for database usage.
 
 ---
+
+## Installation
+
+Clone the repository and install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm start
+```
+
+Open the application in your browser:
+
+```text
+http://localhost:3000
+```
+
+---
+
+## Technologies Used
+
+### Frontend
+
+* React
+* JavaScript (ES6+)
+* React Router
+* CSS3
+
+### Database
+
+* Firebase Firestore
+
+### Development Tools
+
+* npm
+* Git
+* Visual Studio Code
+
+---
+
 ## Future Enhancements
 
 Several improvements could be implemented to expand the application:
