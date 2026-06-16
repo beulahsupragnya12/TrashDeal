@@ -221,7 +221,7 @@ Through this project, key skills were developed in:
 
 Name: Pamula Beulah Supragnya
 Maynooth University Ireland 
-Module: CS385
-Project: Final Project
+Module: CS385 Final Project 
+
 
 
